@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.05.HttpRequest", "01.05.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.06.SendFileAsync", "01.06.SendFileAsync\01.06.SendFileAsync.csproj", "{6A273DAA-3431-4B55-83B5-572C7B440C15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.07.HttpRequestForm", "01.07.HttpRequestForm\01.07.HttpRequestForm.csproj", "{8B0B3FF8-04B3-4D59-B0BC-0EC31AFD90F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.08.HttpResponseRedirect", "01.08.HttpResponseRedirect\01.08.HttpResponseRedirect.csproj", "{5C7EDFB1-C76B-4F31-A771-AC301513CC88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{6A273DAA-3431-4B55-83B5-572C7B440C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A273DAA-3431-4B55-83B5-572C7B440C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A273DAA-3431-4B55-83B5-572C7B440C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0B3FF8-04B3-4D59-B0BC-0EC31AFD90F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0B3FF8-04B3-4D59-B0BC-0EC31AFD90F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0B3FF8-04B3-4D59-B0BC-0EC31AFD90F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0B3FF8-04B3-4D59-B0BC-0EC31AFD90F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7EDFB1-C76B-4F31-A771-AC301513CC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7EDFB1-C76B-4F31-A771-AC301513CC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7EDFB1-C76B-4F31-A771-AC301513CC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7EDFB1-C76B-4F31-A771-AC301513CC88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

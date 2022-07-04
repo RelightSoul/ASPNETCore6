@@ -4,13 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>_01._06.SendFileAsync</RootNamespace>
+    <RootNamespace>_01._07.HttpRequestForm</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Update="forest.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 
 </Project>
