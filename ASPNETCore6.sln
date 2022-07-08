@@ -43,11 +43,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Dependency Injection", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.01.ServicesIServiceCollection", "02.01.ServicesIServiceCollection\02.01.ServicesIServiceCollection.csproj", "{D41A1A28-E586-486B-BB67-A7742A3C4747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.02.CreateServices", "02.02.CreateServices\02.02.CreateServices.csproj", "{CF4BDF34-AED0-43A7-96E5-6327B423278F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.02.CreateServices", "02.02.CreateServices\02.02.CreateServices.csproj", "{CF4BDF34-AED0-43A7-96E5-6327B423278F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.03.GetDependencyIServiceProvider", "02.03.GetDependencyIServiceProvider\02.03.GetDependencyIServiceProvider.csproj", "{735949C7-F4B8-4A3D-84E2-65582F488EF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.03.GetDependencyIServiceProvider", "02.03.GetDependencyIServiceProvider\02.03.GetDependencyIServiceProvider.csproj", "{735949C7-F4B8-4A3D-84E2-65582F488EF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.04.AddTransientScopedSingleton", "02.04.AddTransientScopedSingleton\02.04.AddTransientScopedSingleton.csproj", "{DA9F171A-41F9-4A69-8258-D6DE5E7743A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.04.AddTransientScopedSingleton", "02.04.AddTransientScopedSingleton\02.04.AddTransientScopedSingleton.csproj", "{DA9F171A-41F9-4A69-8258-D6DE5E7743A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.05.ApplicationServices", "02.05.ApplicationServices\02.05.ApplicationServices.csproj", "{F9CD3502-6261-4565-A4FC-80655464E6E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.06.ScopedServicesInSingletonObjects", "02.06.ScopedServicesInSingletonObjects\02.06.ScopedServicesInSingletonObjects.csproj", "{520B83F4-41F8-42FD-A92C-1C06F436FD50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.07.MultyRegServices", "02.07.MultyRegServices\02.07.MultyRegServices.csproj", "{A5AC0D66-B072-4D98-8BD4-D0C5EE2E3B15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +145,18 @@ Global
 		{DA9F171A-41F9-4A69-8258-D6DE5E7743A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA9F171A-41F9-4A69-8258-D6DE5E7743A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA9F171A-41F9-4A69-8258-D6DE5E7743A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CD3502-6261-4565-A4FC-80655464E6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CD3502-6261-4565-A4FC-80655464E6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CD3502-6261-4565-A4FC-80655464E6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CD3502-6261-4565-A4FC-80655464E6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520B83F4-41F8-42FD-A92C-1C06F436FD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520B83F4-41F8-42FD-A92C-1C06F436FD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520B83F4-41F8-42FD-A92C-1C06F436FD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520B83F4-41F8-42FD-A92C-1C06F436FD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5AC0D66-B072-4D98-8BD4-D0C5EE2E3B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AC0D66-B072-4D98-8BD4-D0C5EE2E3B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AC0D66-B072-4D98-8BD4-D0C5EE2E3B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AC0D66-B072-4D98-8BD4-D0C5EE2E3B15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +183,9 @@ Global
 		{CF4BDF34-AED0-43A7-96E5-6327B423278F} = {BADEFE3C-AD96-4A95-9F3F-CB67A8F3C627}
 		{735949C7-F4B8-4A3D-84E2-65582F488EF0} = {BADEFE3C-AD96-4A95-9F3F-CB67A8F3C627}
 		{DA9F171A-41F9-4A69-8258-D6DE5E7743A8} = {BADEFE3C-AD96-4A95-9F3F-CB67A8F3C627}
+		{F9CD3502-6261-4565-A4FC-80655464E6E5} = {BADEFE3C-AD96-4A95-9F3F-CB67A8F3C627}
+		{520B83F4-41F8-42FD-A92C-1C06F436FD50} = {BADEFE3C-AD96-4A95-9F3F-CB67A8F3C627}
+		{A5AC0D66-B072-4D98-8BD4-D0C5EE2E3B15} = {BADEFE3C-AD96-4A95-9F3F-CB67A8F3C627}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCE5FF71-2839-4294-A9AF-384FED549661}
