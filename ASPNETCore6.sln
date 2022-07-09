@@ -57,19 +57,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.07.MultyRegServices", "0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Microsoft.AspNetCore.Routing", "03.Microsoft.AspNetCore.Routing", "{109FBFDD-6C75-44F5-B94E-BF2945F4048D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01.Endpoint", "03.01.Endpoint\03.01.Endpoint.csproj", "{44EF6BB2-DE29-41D7-A612-3133905A87B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.01.Endpoint", "03.01.Endpoint\03.01.Endpoint.csproj", "{44EF6BB2-DE29-41D7-A612-3133905A87B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.02.RoutingParams", "03.02.RoutingParams\03.02.RoutingParams.csproj", "{277FC8B1-0EF6-47A8-A8CD-FECAAFFAD5CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.02.RoutingParams", "03.02.RoutingParams\03.02.RoutingParams.csproj", "{277FC8B1-0EF6-47A8-A8CD-FECAAFFAD5CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.03.RouteConstraints", "03.03.RouteConstraints\03.03.RouteConstraints.csproj", "{44182F24-B541-408A-AF5B-7E6D26EBBD2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.03.RouteConstraints", "03.03.RouteConstraints\03.03.RouteConstraints.csproj", "{44182F24-B541-408A-AF5B-7E6D26EBBD2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.04.IRouteConstraint", "03.04.IRouteConstraint\03.04.IRouteConstraint.csproj", "{15F43754-1F43-4ED3-BC24-DFD31A08CCDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.04.IRouteConstraint", "03.04.IRouteConstraint\03.04.IRouteConstraint.csproj", "{15F43754-1F43-4ED3-BC24-DFD31A08CCDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.05.DependencyToEndpoints", "03.05.DependencyToEndpoints\03.05.DependencyToEndpoints.csproj", "{118649AC-9246-4B82-AAD9-127514480F61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.05.DependencyToEndpoints", "03.05.DependencyToEndpoints\03.05.DependencyToEndpoints.csproj", "{118649AC-9246-4B82-AAD9-127514480F61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.06.URLmatching", "03.06.URLmatching\03.06.URLmatching.csproj", "{E9CA25E0-8ED4-4FD5-A2DE-4D935DCB69BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.06.URLmatching", "03.06.URLmatching\03.06.URLmatching.csproj", "{E9CA25E0-8ED4-4FD5-A2DE-4D935DCB69BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.07.Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware", "03.07.Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware\03.07.Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.csproj", "{8996F3D2-1A45-41D9-A0D5-C690D97A3B91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.07.Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware", "03.07.Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware\03.07.Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.csproj", "{8996F3D2-1A45-41D9-A0D5-C690D97A3B91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.StaticFiles", "04.StaticFiles", "{A88EAD69-9AD3-4463-BE74-30EE94C7E516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.01.UseStaticFiles", "04.01.UseStaticFiles\04.01.UseStaticFiles.csproj", "{695E6F73-7932-44FA-9678-B46CD6589C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.02.UseStaticFiles", "04.02.UseStaticFiles\04.02.UseStaticFiles.csproj", "{F4BFF589-D99D-48A3-89EB-186C708211F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +207,14 @@ Global
 		{8996F3D2-1A45-41D9-A0D5-C690D97A3B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8996F3D2-1A45-41D9-A0D5-C690D97A3B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8996F3D2-1A45-41D9-A0D5-C690D97A3B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695E6F73-7932-44FA-9678-B46CD6589C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695E6F73-7932-44FA-9678-B46CD6589C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695E6F73-7932-44FA-9678-B46CD6589C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695E6F73-7932-44FA-9678-B46CD6589C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BFF589-D99D-48A3-89EB-186C708211F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BFF589-D99D-48A3-89EB-186C708211F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BFF589-D99D-48A3-89EB-186C708211F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BFF589-D99D-48A3-89EB-186C708211F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -237,6 +251,8 @@ Global
 		{118649AC-9246-4B82-AAD9-127514480F61} = {109FBFDD-6C75-44F5-B94E-BF2945F4048D}
 		{E9CA25E0-8ED4-4FD5-A2DE-4D935DCB69BE} = {109FBFDD-6C75-44F5-B94E-BF2945F4048D}
 		{8996F3D2-1A45-41D9-A0D5-C690D97A3B91} = {109FBFDD-6C75-44F5-B94E-BF2945F4048D}
+		{695E6F73-7932-44FA-9678-B46CD6589C96} = {A88EAD69-9AD3-4463-BE74-30EE94C7E516}
+		{F4BFF589-D99D-48A3-89EB-186C708211F8} = {A88EAD69-9AD3-4463-BE74-30EE94C7E516}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCE5FF71-2839-4294-A9AF-384FED549661}
