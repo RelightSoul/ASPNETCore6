@@ -1,0 +1,4 @@
+{
+  "person": { "profile": {"name" : "Tomas", "email" : "tom@gmail.com"} },
+  "company": { "name": "Mocrosoft"}
+}

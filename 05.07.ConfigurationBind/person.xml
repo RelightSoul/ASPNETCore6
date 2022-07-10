@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<person>
+  <name>Tom</name>
+  <age>35</age>
+  <languages name="0">English</languages>
+  <languages name="1">German</languages>
+  <languages name="2">Chinese</languages>
+  <company>
+    <title>Microsoft</title>
+    <country>USA</country>
+  </company>
+</person>
