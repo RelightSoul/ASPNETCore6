@@ -1,4 +1,4 @@
-# ASPNETCore6
+# ASP.NET Core 6
 
 В данном разределе изучаю ASP.NET Core 6
 
