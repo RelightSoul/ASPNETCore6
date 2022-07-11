@@ -79,21 +79,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.02.UseStaticFiles", "04.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Configuration", "05.Configuration", "{2001E3BE-37C5-42DB-997E-0427600793D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.01.ConfigurationBasics", "05.01.ConfigurationBasics\05.01.ConfigurationBasics.csproj", "{A2FBFAA6-4DE9-4E3B-9A32-FF3B65BD3C75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.01.ConfigurationBasics", "05.01.ConfigurationBasics\05.01.ConfigurationBasics.csproj", "{A2FBFAA6-4DE9-4E3B-9A32-FF3B65BD3C75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.02.NonfIleProvidersConfiguration", "05.02.NonfIleProvidersConfiguration\05.02.NonfIleProvidersConfiguration.csproj", "{C01D2AA0-4AC1-4FE6-9A60-B844C61927A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.02.NonfIleProvidersConfiguration", "05.02.NonfIleProvidersConfiguration\05.02.NonfIleProvidersConfiguration.csproj", "{C01D2AA0-4AC1-4FE6-9A60-B844C61927A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.03.ConfigurationInJsonXMLIni", "05.03.ConfigurationInJsonXMLIni\05.03.ConfigurationInJsonXMLIni.csproj", "{53C79531-3F34-4489-B739-B85A67C28557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.03.ConfigurationInJsonXMLIni", "05.03.ConfigurationInJsonXMLIni\05.03.ConfigurationInJsonXMLIni.csproj", "{53C79531-3F34-4489-B739-B85A67C28557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.04.DefaultConfigurationAndUnion", "05.04.DefaultConfigurationAndUnion\05.04.DefaultConfigurationAndUnion.csproj", "{8851BD0D-48D0-4E47-A696-E8DEA5CDEF3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.04.DefaultConfigurationAndUnion", "05.04.DefaultConfigurationAndUnion\05.04.DefaultConfigurationAndUnion.csproj", "{8851BD0D-48D0-4E47-A696-E8DEA5CDEF3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.05.ConfigurationAnalysis", "05.05.ConfigurationAnalysis\05.05.ConfigurationAnalysis.csproj", "{1D1D6A28-B411-4E31-9CDD-78B645F919D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.05.ConfigurationAnalysis", "05.05.ConfigurationAnalysis\05.05.ConfigurationAnalysis.csproj", "{1D1D6A28-B411-4E31-9CDD-78B645F919D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.06.CreateConfigurationProvider", "05.06.CreateConfigurationProvider\05.06.CreateConfigurationProvider.csproj", "{A003CE4A-2835-4E88-B350-F0FB4CDB0633}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.06.CreateConfigurationProvider", "05.06.CreateConfigurationProvider\05.06.CreateConfigurationProvider.csproj", "{A003CE4A-2835-4E88-B350-F0FB4CDB0633}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.07.ConfigurationBind", "05.07.ConfigurationBind\05.07.ConfigurationBind.csproj", "{059086FE-BCB8-4EFD-B652-F8F71C0AE547}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.07.ConfigurationBind", "05.07.ConfigurationBind\05.07.ConfigurationBind.csproj", "{059086FE-BCB8-4EFD-B652-F8F71C0AE547}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.08.IOptions", "05.08.IOptions\05.08.IOptions.csproj", "{5EADE1A4-3D42-4987-8D11-87D98C0CAF05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.08.IOptions", "05.08.IOptions\05.08.IOptions.csproj", "{5EADE1A4-3D42-4987-8D11-87D98C0CAF05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Logging", "06.Logging", "{1DA71CFD-3CDC-4B89-8711-5B39AFD32E3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.01.ILogger", "06.01.ILogger\06.01.ILogger.csproj", "{1BA1BEF8-5F5D-43C0-AA3F-A87D2824E1BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.02.LoggerFactory", "06.02.LoggerFactory\06.02.LoggerFactory.csproj", "{2B8D7AFF-B964-4EA2-A449-2078207D38CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.03.LoggingConfiguration", "06.03.LoggingConfiguration\06.03.LoggingConfiguration.csproj", "{C5D9564C-3F38-457A-A488-FCAA84697945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.04.CreateLoggerProvider", "06.04.CreateLoggerProvider\06.04.CreateLoggerProvider.csproj", "{CC4ADDB4-8FD9-4416-AC41-F529FFC666BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -265,6 +275,22 @@ Global
 		{5EADE1A4-3D42-4987-8D11-87D98C0CAF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EADE1A4-3D42-4987-8D11-87D98C0CAF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EADE1A4-3D42-4987-8D11-87D98C0CAF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA1BEF8-5F5D-43C0-AA3F-A87D2824E1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA1BEF8-5F5D-43C0-AA3F-A87D2824E1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA1BEF8-5F5D-43C0-AA3F-A87D2824E1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA1BEF8-5F5D-43C0-AA3F-A87D2824E1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8D7AFF-B964-4EA2-A449-2078207D38CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8D7AFF-B964-4EA2-A449-2078207D38CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8D7AFF-B964-4EA2-A449-2078207D38CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8D7AFF-B964-4EA2-A449-2078207D38CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D9564C-3F38-457A-A488-FCAA84697945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D9564C-3F38-457A-A488-FCAA84697945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D9564C-3F38-457A-A488-FCAA84697945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D9564C-3F38-457A-A488-FCAA84697945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4ADDB4-8FD9-4416-AC41-F529FFC666BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4ADDB4-8FD9-4416-AC41-F529FFC666BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4ADDB4-8FD9-4416-AC41-F529FFC666BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4ADDB4-8FD9-4416-AC41-F529FFC666BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -311,6 +337,10 @@ Global
 		{A003CE4A-2835-4E88-B350-F0FB4CDB0633} = {2001E3BE-37C5-42DB-997E-0427600793D2}
 		{059086FE-BCB8-4EFD-B652-F8F71C0AE547} = {2001E3BE-37C5-42DB-997E-0427600793D2}
 		{5EADE1A4-3D42-4987-8D11-87D98C0CAF05} = {2001E3BE-37C5-42DB-997E-0427600793D2}
+		{1BA1BEF8-5F5D-43C0-AA3F-A87D2824E1BE} = {1DA71CFD-3CDC-4B89-8711-5B39AFD32E3A}
+		{2B8D7AFF-B964-4EA2-A449-2078207D38CB} = {1DA71CFD-3CDC-4B89-8711-5B39AFD32E3A}
+		{C5D9564C-3F38-457A-A488-FCAA84697945} = {1DA71CFD-3CDC-4B89-8711-5B39AFD32E3A}
+		{CC4ADDB4-8FD9-4416-AC41-F529FFC666BE} = {1DA71CFD-3CDC-4B89-8711-5B39AFD32E3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCE5FF71-2839-4294-A9AF-384FED549661}

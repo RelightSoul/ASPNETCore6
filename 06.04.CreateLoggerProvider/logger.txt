@@ -1,0 +1,7 @@
+Now listening on: https://localhost:7291
+Now listening on: http://localhost:5291
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Vlad\source\repos\ASPNETCore6\06.04.CreateLoggerProvider\
+Path: / Time: 11:55:52
+Path: /favicon.ico Time: 11:55:52
